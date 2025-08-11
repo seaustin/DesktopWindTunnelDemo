@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ApplicationInstallerManifest>
+  <DefaultInstallationDirectory>%ProgramFiles%\TunnelApp2</DefaultInstallationDirectory>
+  <ApplicationName>TunnelApp2</ApplicationName>
+  <ExecutableName>application\DesktopWindTunnel.exe</ExecutableName>
+  <GUID>e4481503-623e-45db-87e2-19cf88e5e276</GUID>
+  <ApplicationIcon>icon_48.png</ApplicationIcon>
+  <Logo>temp_default_logo.png</Logo>
+  <Version>1.0</Version>
+  <AddRemoveProgramIcon>application\icon.ico</AddRemoveProgramIcon>
+  <WelcomePanelText>TunnelApp2 1.0</WelcomePanelText>
+</ApplicationInstallerManifest>
