@@ -51,7 +51,7 @@ Matlab scripts and the Matlab app. Some scripts only exist for feature testing a
 later.
 
 # User Interface Architecture
-![UX Logic](images/UXArch.png)
+![UX Logic](MATLAB Internal Files\WindTunnelUX-main - Professional\WindTunnelUX-main\images\UXArch.png)
 
 The overall idea is to have a timer in the Matlab GUI that continually updates the GUI after a
 certain time interval. That update involves reading in data from the Arduino serial port that
