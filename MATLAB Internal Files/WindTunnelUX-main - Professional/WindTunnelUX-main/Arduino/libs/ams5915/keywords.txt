@@ -1,0 +1,6 @@
+Ams5915	KEYWORD1
+Config	KEYWORD2
+Begin	KEYWORD2
+Read	KEYWORD2
+pres_pa	KEYWORD2
+die_temp_c	KEYWORD2

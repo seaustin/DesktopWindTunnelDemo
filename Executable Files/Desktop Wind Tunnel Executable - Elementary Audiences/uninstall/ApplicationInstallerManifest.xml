@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ApplicationInstallerManifest>
+  <DefaultInstallationDirectory>%ProgramFiles%\Demo_Wind_Tunnel_-_Younger_Audiences</DefaultInstallationDirectory>
+  <ApplicationName>Demo Wind Tunnel - Younger Audiences</ApplicationName>
+  <ExecutableName>application\DesktopWindTunnel_YoungerAudiences.exe</ExecutableName>
+  <GUID>aea48142-8b0e-4ccd-9840-f6e704825335</GUID>
+  <ApplicationIcon>icon_48.png</ApplicationIcon>
+  <Logo>temp_default_logo.png</Logo>
+  <Version>1.0</Version>
+  <AddRemoveProgramIcon>application\icon.ico</AddRemoveProgramIcon>
+  <Summary>Demonstration interface for younger audiences.</Summary>
+  <WelcomePanelText>Demo Wind Tunnel - Younger Audiences 1.0
+Demonstration interface for younger audiences.
+Sam Austin</WelcomePanelText>
+</ApplicationInstallerManifest>
