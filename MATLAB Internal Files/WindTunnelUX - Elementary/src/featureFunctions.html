@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h2>Feature Explanations and Functions</h2>
+	<h3>Wind Tunnel Label</h3>
+	<ul>
+		<li>This is an editable space that can be altered to title the interface as desired, with 'WIND TUNNEL' as the default text.</li>
+		<li><em>NOTE: Label options are limited by space.</em></li>
+	</ul>
+	<h3>Measured Airspeed</h3>
+	<ul>
+		<li>This feature should automatically update as the tunnel changes speed, increasing/decreasing the flame graphic respectively.</li>
+	</ul>
+	<h3>Lift and Weight Relationship</h3>
+	<ul>
+		<li>This feature is based on the pressure difference between the top and bottom alpha ports on the pitot tube.</li>
+		<li>The balloon represents the lift force caused by increased pressure on the underside of the plane.</li>
+		<li>The weight represents the force caused by pressure on the top of the plane.</li>
+		<li>The balloon and weight should scale appropriately to demonstrate that a positive AOA puts more pressure underneath the wing and causes it to lift, whereas a negative AOA puts more pressure on the top of the wing, causing it to fall.</li>
+		<li><em>If the AOA reads greater than 30 degrees, the airplane will 'stall' and drop down to the bottom of the screen.</em></li>
+	</ul>
+	<h3>Speed and Pressure Relationship</h3>
+	<ul>
+		<li>This feature demonstrates the inverse relationship between velocity and pressure on an airfoil, which is what makes a plane fly.</li>
+		<li>This feature reads the alpha port pressure difference and scales the arrows to represent the pressure and velocity vectors on the top and bottom of the airfoil.</li>
+		<li>The pink arrows represent pressure and the blue arrows represent velocity around the airfoil.</li>
+		<ul>
+			<li><b>Positive AOAs</b> will generate a larger pressure arrow underneath the airfoil, and a larger velocity across the top of the airfoil, shrinking the other arrows respectively.</li>
+			<li><b>Negative AOAs</b> will generate a larger pressure arrow on top of the airfoil, and a larger velocity across the bottom of the airfoil, shrinking the other arrows respectively.</li>
+			<li><b>Zero AOA</b> will return all arrows to their balanced positions, demonstrating steady, level flight.</li>
+		</ul>
+	</ul>
+	<h3>Measured Angle of Attack</h3>
+	<ul>
+		<li>This feature is based on the difference in pressure read from the alpha ports on the pitot tube.</li>
+	</ul>
+</body>
+</html>

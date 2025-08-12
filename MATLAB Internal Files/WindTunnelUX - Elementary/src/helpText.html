@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h2>General Usage and Connect/Disconnect Instructions</h2>
+	<h3>How To Connect</h3>
+	<ol>
+		<li>Plug in the wind tunnel to the wall and to the computer's USB-C port.</li>
+		<li>Open the 'Serial Port' drop down and take note of the COM port options.</li>
+		<li>Locate the wind tunnel's on/off switch on the red base support of the tunnel (directly behind the test section) and flip it on.</li>
+		<li>Click the 'Refresh' button.</li>
+		<li>Open the 'Serial Port' drop down and select the COM port that was not there previously.</li>
+		<li>Hit the 'Connect' button and the connection light should turn green shortly after.</li>
+		<ul>
+			<li><b>If you select the incorrect COM port, you may have to kill the app in Task Manager and retry</b></li>
+		</ul>
+		<li><em>NOTE: You should hear the wind tunnel turn on and see the 'Measured Airspeed' go up to about 15 m/s and then work back down to 0 m/s.</em></li>
+		<li><em>NOTE: If the tunnel does not connect, try to kill the app in Task Manager and retry.</em></li>
+	</ol>
+	<h4>Wind Tunnel Label</h4>
+	<ul>
+		<li>This is an editable space that can be altered to title the project as desired, but 'WIND TUNNEL' is the default text.</li>
+		<li><em>NOTE: Label options are limited by space.</em></li>
+	</ul>
+	<h4>Wind Tunnel Speed</h4>
+	<ul>
+		<li><em>If changing speed for the first time, wait for the tunnel to return to 0 m/s after start up before attempting to change speed.</em></li>
+		<li>Drag the white cloud graphic to the desired speed and hit 'SET SPEED'.</li>
+		<ul>
+			<li><b>Blue Section - </b>No AOA data for these speeds, so the Lift/Weight and Measured Angle of Attack features may not be available.</li>
+			<li><b>Green Section - </b>AOA data is available and all features should operate.</li>
+			<li><b>Red Section - </b>No AOA data, wind tunnel can still operate at these speeds but they are reaching the limits of the tunnel, so not all features are available.</li>
+		</ul>
+		<li>Hitting the stop sign graphic will bring the tunnel speed back to 0 m/s and reset all graphics while keeping the tunnel connection.</li>
+		<li><em>NOTE: <b>To bring the tunnel speed to 0 m/s please hit the stop sign</b> instead of bringing the cloud slider back to zero and hitting 'SET SPEED' as this will make the tunnel run at full speed.</em></li>
+	</ul>
+	<h4>Measured Airspeed</h4>
+	<ul>
+		<li><em>NOTE: The measured airspeed value will be about 2-3 m/s off from the set wind tunnel speed, so keep in mind if trying to demonstrate AOA.</em></li>
+	</ul>
+	<h4>Lift and Weight Relationship</h4>
+	<ul>
+		<li>This feature works when the speed is within the green range, and is best demonstrated by adjusting the angle of attack of the pitot probe.</li>
+		<li>At an AOA of 30 degrees, the airplane will 'stall' and drop to the bottom of the screen.</li>
+	</ul>
+	<h4>Speed and Pressure Relationship</h4>
+	<ul>
+		<li>This feature works when the speed is within the green range, and is best demonstrated by adjusting the angle of attack of the pitot probe.</li>
+	</ul>
+	<h4>Measured Angle of Attack</h4>
+	<ul>
+		<li>This feature works when the speed is within the green range, and is best demonstrated by adjusting the angle of attack of the pitot probe.</li>
+		<ul>
+			<li><b>Green Section - </b>'Mild' angle of attack</li>
+			<li><b>Yellow Section - </b>'Medium' angle of attack</li>
+			<li><b>Red Section - </b>'Harsh' angle of attack that will produce 'stall' in the lift/weight graphic.</li>
+		</ul>
+	</ul>
+	<h3>How to Disconnect</h3>
+	<ol>
+		<li>Press the stop sign button to drop the speed back to 0 m/s.</li>
+		<li>Press the 'Disconnect' button and the connection light should turn red.</li>
+		<li>Turn off the wind tunnel's on/off switch</li>
+		<li>Unplug the wind tunnel from the wall and the computer's USB-C port.</li>
+	</ol>
+</body>
+</html>

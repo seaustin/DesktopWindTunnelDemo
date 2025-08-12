@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+    <Category UUID="Deployment_Category_51a44c58-462f-485e-8fee-6fdef50892e3">
+        <Label UUID="Deployment_InstallerIconFile_51a44c58-462f-485e-8fee-6fdef50892e3"/>
+        <Label UUID="Deployment_ExeIconFile_51a44c58-462f-485e-8fee-6fdef50892e3"/>
+    </Category>
+</Info>
